@@ -7,7 +7,7 @@ public class start {
          System.out.println("プログラムを実行します");
          MyFrame frame1 = new RectTest();
          MyFrame frame2 = new OvalTest();
-       
+         MyFrame frame3 = new TextTest();
 	}
 
 }
