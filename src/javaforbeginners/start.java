@@ -12,7 +12,10 @@ public class start {
          MyFrame frame5 = new RectLoop();
          MyFrame frame6 = new RectIf();*/
          //MyFrame frame7 = new  DisplayRectsSlow();
-         MyFrame frame8 = new Animation();
+         //MyFrame frame8 = new Animation();
+        // MyFrame frame9 = new DisplayFace();
+         MyFrame f=new DisplayFaceObject();
+         
 	}
 
 }

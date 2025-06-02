@@ -153,14 +153,16 @@ public class Animation extends MyFrame {
 		}*/
 			y=40;
 			x=30;
-			while(y<=180) {
+			int z=10;
+			int v=10;
+			while(true) {
 				//⑴画面を消す
 				clear();
 				//⑵四角形を表示する
 				setColor(0,128,0);
 				fillOval (x,y,10,10);
 				
-				if(y==40) {
+				if(y==z*4) {
 					while(x<=100) {
 						clear();
 						//⑵四角形を表示する
@@ -169,11 +171,12 @@ public class Animation extends MyFrame {
 						
 						x+=5;
 						sleep(0.016);
+						
 					}
 				
 				}
 				
-					else if(y==70) {
+					else if(y==v*7) {
 					while(x>=30) {
 						clear();
 						//⑵四角形を表示する
@@ -182,6 +185,7 @@ public class Animation extends MyFrame {
 						
 						x-=5;
 						sleep(0.016);
+						
 					}
 				
 					
@@ -189,8 +193,11 @@ public class Animation extends MyFrame {
 				}
 				sleep(0.016);
 				y+=5;
-				if(y==165) {
+				z=z*4;
+				v=v*7;
+				if(y==250) {
 					y=40;
+					
 				}
 				
 				
