@@ -11,7 +11,8 @@ public class start {
          MyFrame frame4 = new RectAndOval();
          MyFrame frame5 = new RectLoop();
          MyFrame frame6 = new RectIf();*/
-         MyFrame frame7 = new  DisplayRectsSlow();
+         //MyFrame frame7 = new  DisplayRectsSlow();
+         MyFrame frame8 = new Animation();
 	}
 
 }
