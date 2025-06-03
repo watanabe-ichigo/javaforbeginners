@@ -3,9 +3,13 @@ package javaforbeginners;
 public class Face {
 	int x;
 	int y;
-	public Face(int x,int y) {
+	int vx;
+	int vy;
+	public Face(int x,int y,int vx,int vy) {
 		this.x=x;
 		this.y=y;
+		this.vx=vx;
+		this.vy=vy;
 	}
 	public void draw(MyFrame frame) {
 	
@@ -13,6 +17,10 @@ public class Face {
 		frame.fillOval(x+100,y,50,100);
 		frame.fillRect(x,y+160,150,10);
 		
+	}
+	public void move() {
+		x+=vx;
+		y+=vy;
 	}
 
 }

@@ -14,7 +14,8 @@ public class start {
          //MyFrame frame7 = new  DisplayRectsSlow();
          //MyFrame frame8 = new Animation();
         // MyFrame frame9 = new DisplayFace();
-         MyFrame f=new DisplayFaceObject();
+         //MyFrame f=new DisplayFaceAndTree();
+         MyFrame f = new CarObject();
          
 	}
 
