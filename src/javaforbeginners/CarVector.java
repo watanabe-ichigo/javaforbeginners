@@ -9,7 +9,7 @@ public class CarVector extends MyFrame {
 		cars.add(new Car(50,100,2));
 		cars.add(new Car(50,150,3));
 		cars.add(new Car(50,200,4));
-		cars.add(new Car(50,250,50));
+		cars.add(new Car(50,250,5));
 		
 		while(true) {
 			clear();

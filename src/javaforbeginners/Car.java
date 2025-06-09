@@ -26,9 +26,11 @@ public class Car  {
 	}
 		public void move() {
 			x+=vx;
+			
 			if(x==400) {
 				x=50;
 			}
+			vx+=2;
 		}
 		
 	
