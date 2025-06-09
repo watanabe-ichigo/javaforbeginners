@@ -15,7 +15,9 @@ public class start {
          //MyFrame frame8 = new Animation();
         // MyFrame frame9 = new DisplayFace();
          //MyFrame f=new DisplayFaceAndTree();
-         MyFrame f = new CarObject();
+         //MyFrame f= new DisplayFaceVector();
+         MyFrame f= new CarVector();
+         //MyFrame f = new CarObject();
          
 	}
 
