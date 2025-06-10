@@ -20,8 +20,9 @@ public class start {
          //MyFrame f = new CarObject();
          //MyFrame f = new DisplayCars();
          //MyFrame f = new DisplayCarTrain();
-         MyFrame f = new DisplayCarsTrains();
+         //MyFrame f = new DisplayCarsTrains();
          //MyFrame f = new DisplayVehicleVector();
+         MyFrame f = new PlayerAnimation();
          
 	}
 
