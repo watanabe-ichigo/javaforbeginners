@@ -1,15 +1,15 @@
 package javaforbeginners;
 
-public class Car  {
-	int x,y,vx,vy;
-	public Car(int x,int y,int vx) {
-		this.x=x;
-		this.y=y;
-		this.vx=vx;
-		
+public class Car extends Vehicle  {
+	
+	
+	
+	
+		public Car(int x, int y, int vx, int vy) {
+		super(x, y, vx, vy);
+		// TODO 自動生成されたコンストラクター・スタブ
 	}
-	
-	
+
 		public void draw(MyFrame frame) {
 			
 			
@@ -24,14 +24,7 @@ public class Car  {
 		
 		
 	}
-		public void move() {
-			x+=vx;
-			
-			if(x>=400) {
-				x=0;
-			}
-			vx+=2;
-		}
+		
 		
 	
 	
